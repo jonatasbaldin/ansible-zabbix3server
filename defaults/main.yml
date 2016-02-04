@@ -26,8 +26,8 @@ zabbix3server_web_install: True
 zabbix3server_web_dir: /var/www/html/zabbix
 
 # Download and compile variables
-zabbix3server_betaversion: 3.0.0beta2
-zabbix3server_downloadurl: http://downloads.sourceforge.net/project/zabbix/ZABBIX%20Latest%20Development/{{ zabbix3server_betaversion }}/zabbix-{{ zabbix3server_betaversion }}.tar.gz
+zabbix3server_betaversion: 3.0.0rc1
+zabbix3server_downloadurl: http://downloads.sourceforge.net/project/zabbix/ZABBIX%20Release%20Candidates/{{ zabbix3server_betaversion }}/zabbix-{{ zabbix3server_betaversion }}.tar.gz
 zabbix3server_compile_options: "--enable-server --enable-ipv6 --with-net-snmp --with-libcurl --with-libxml2 --prefix={{ zabbix3server_install_path | quote }} --with-{{ zabbix3server_db | quote }}"
 
 # Misc variables

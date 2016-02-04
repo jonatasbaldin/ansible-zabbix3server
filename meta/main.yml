@@ -1,6 +1,6 @@
 galaxy_info:
   author: Jonatas Baldin
-  description: Zabbix 3 beta, agent side.
+  description: Zabbix 3 beta, server side.
   company: deployeveryday.com
   
   license: MIT
